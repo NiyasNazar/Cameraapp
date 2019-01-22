@@ -57,7 +57,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainAct extends BaseActivity implements View.OnClickListener {
-
+String prefrence;
     public static final String TAG = "MainActivity : ";
     private boolean isDisableExitConfirmation = false;
     private String userMobile, userEmail;
